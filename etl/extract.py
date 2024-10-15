@@ -6,6 +6,12 @@ def extract_content(file_path):
 
     return file_content
 
+def extract_content_from_excel(file_path, sheet_name):
+
+    file_content = pd.read_excel(file_path, sheet_name=sheet_name, dtype=str)
+
+    return file_content
+
 def consolidate_dataframe(consolidated_file, dataframe):
 
     try:
