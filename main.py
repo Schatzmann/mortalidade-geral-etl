@@ -12,11 +12,10 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-dimension_tables = 'dataset\Tabelas Dimensão.xlsx'
-transformed_dataset_file = 'dataset\\transformed_dataset_generated_by_etl.csv'
-consolidate_dataset_file = 'dataset\consolidated_dataset_generated_by_etl.csv'
-# dataset_files = ['dataset\DO22OPEN.csv', 'dataset\DO23OPEN.csv', 'dataset\DO24OPEN+(2).csv']
-dataset_files = ['dataset\DO23OPEN.csv', 'dataset\DO24OPEN+(2).csv']
+dimension_tables = 'dataset/Tabelas Dimensão.xlsx'
+transformed_dataset_file = 'dataset//transformed_dataset_generated_by_etl.csv'
+consolidate_dataset_file = 'dataset/consolidated_dataset_generated_by_etl.csv'
+dataset_files = ['dataset/DO23OPEN.csv', 'dataset/DO24OPEN+(2).csv']
 columns_to_keep = ["ACIDTRAB", "ATESTADO", "ATESTANTE", "CAUSABAS_O", "FONTEINV", "CAUSAMAT", "CIRCOBITO", "DTNASC", "DTOBITO", "ESCFALAGR1", "ESTCIV", "RACACOR", "GESTACAO", "GRAVIDEZ", "HORAOBITO", "IDADE", "IDADEMAE", "LINHAA", "LINHAB", "LINHAC", "LINHAD", "LINHAII", "LOCOCOR", "MORTEPARTO", "CODMUNOCOR", "OBITOGRAV", "OBITOPUERP", "PESO", "QTDFILMORT", "QTDFILVIVO", "SEXO", "TIPOBITO", "PARTO", "TPMORTEOCO", "TPOBITOCOR"]
 
 

@@ -34,7 +34,7 @@ def connect_db():
         logging.error(error)
 
 def create_tables():
-    with open('database_scripts\\create_tables.sql', 'r') as file:
+    with open('database_scripts//create_tables.sql', 'r') as file:
         queries = file.read().replace('\n', ' ')
     execute_query(queries)
 
